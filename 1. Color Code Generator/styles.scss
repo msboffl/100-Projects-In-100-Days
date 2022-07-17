@@ -1,0 +1,27 @@
+// <---- Fonts ----->
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+// <---- Import Files ----> 
+@import "./global";
+@import "./container";
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $pure-black;
+    color: $pure-white;
+    height: 100vh;
+}
+h1 {
+    font-size: 3.5em;
+    border-bottom: 2px solid $pure-white;
+}
